@@ -1,3 +1,5 @@
 class Article < ApplicationRecord
-  validates_presence_of(:title)
+  validates :title, presence: true
 end
+
+# 競合解決済 #
